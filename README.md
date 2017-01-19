@@ -16,6 +16,12 @@ unless(foo, () => console.log('Foo is false so I am called!'));
 
 const bar = true;
 unless(bar, () => console.log('Bar is true so I am NOT called!'));
+
+// more useful
+unless(currentUser, () => authenticate(currentUser))
+.then(() => {
+  return mail.send(currentUser.email);
+});
 ```
 
 ## Contribute
