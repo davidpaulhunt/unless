@@ -1,0 +1,24 @@
+{
+  "name": "unless-async",
+  "version": "0.0.1",
+  "description": "Async unless conditional flow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidpaulhunt/unless-async.git"
+  },
+  "keywords": [
+    "conditionals",
+    "logic",
+    "async"
+  ],
+  "author": "David Hunt <davidpaulhunt@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidpaulhunt/unless-async/issues"
+  },
+  "homepage": "https://github.com/davidpaulhunt/unless-async#readme"
+}
