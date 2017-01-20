@@ -24,8 +24,8 @@ unless(user.isAuthenticated(), () => authenticate(user))
 });
 ```
 
-## Contribute
-Feel free to fork and PR.
+## Test
+`npm test`
 
 ## License
 MIT
