@@ -4,7 +4,7 @@
   "description": "Async unless conditional flow.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/davidpaulhunt/unless-async/issues"
   },
-  "homepage": "https://github.com/davidpaulhunt/unless-async#readme"
+  "homepage": "https://github.com/davidpaulhunt/unless-async#readme",
+  "devDependencies": {
+    "vows": "^0.8.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
 }
