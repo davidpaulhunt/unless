@@ -18,7 +18,7 @@ const bar = true;
 unless(bar, () => console.log('Bar is true so I am NOT called!'));
 
 // more useful
-unless(user && user.isAuthenticated(), () => authenticate(user))
+unless(user.isAuthenticated(), () => authenticate(user))
 .then(() => {
   return mail.send(user.email);
 });
