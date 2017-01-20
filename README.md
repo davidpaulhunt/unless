@@ -2,6 +2,8 @@
 
 Async `unless` conditional flow inspired by Ruby.
 
+Node 6+
+
 ## Why?
 
 Because programming is fun, and implementing what you think you know shows you what you've yet to learn.
