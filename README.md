@@ -24,6 +24,15 @@ unless(user.isAuthenticated(), () => authenticate(user))
 });
 ```
 
+## API
+```
+unless(
+  Promise<any>|boolean condition,
+  function action
+) -> Promise
+```
+Creates a promise that is resolved with the given action function when false, otherwise resolves undefined.
+
 ## Test
 `npm test`
 
